@@ -12,6 +12,8 @@ npm install
 DEBUG=myapp:* npm start
 ```
 
+Visit [localhost:3000](http://localhost:3000)
+
 ## Little Bobby Tables
 
 If you want to HACK your website enter the text below into the block to delete
@@ -21,6 +23,6 @@ field! YOLO SEND IT!
 1'; drop table blog; --
 ```
 
-Congrats! You are now on the CIA's watch list! Visit [localhost:3000](http://localhost:3000)
+Congrats! You are now on the CIA's watch list! 
 
 Enjoy!
