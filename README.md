@@ -21,6 +21,6 @@ field! YOLO SEND IT!
 1'; drop table blog; --
 ```
 
-Congrats! You are not on the CIA's watch list! Visit [localhost:3000](http://localhost:3000)
+Congrats! You are now on the CIA's watch list! Visit [localhost:3000](http://localhost:3000)
 
 Enjoy!
