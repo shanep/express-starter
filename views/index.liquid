@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>{{title}}</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1>Hello World</h1>
+        <img src="/images/exploits_of_a_mom.png">
+        <ul>
+            {% for txt in data%}
+            <ul>{{txt.blog_id}} - {{txt.blog_txt}}  </ul>
+            {% endfor%}
+        </ul>
+
+        <hr>
+        <h2>Add stuff</h2>
+        <form action="/add" method="POST">
+            <div>
+                <label for="blog">What is your blog txt?</label>
+                <input name="blog" id="blog" value="Hi this is my blog text!" />
+            </div>
+            <div>
+                <button>Send my blog</button>
+            </div>
+        </form>
+        <hr>
+        <h2>Delete stuff</h2>
+                <form action="/delete" method="POST">
+            <div>
+                <label for="blog">Blog to delete?</label>
+                <input name="blog" id="blog" value="1" />
+            </div>
+            <div>
+                <button>delete my blog</button>
+            </div>
+        </form>
+    </body>
+</html>
