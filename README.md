@@ -16,7 +16,7 @@ Visit [localhost:3000](http://localhost:3000)
 
 ## Little Bobby Tables
 
-If you want to HACK your website enter the text below into the block to delete
+If you want to HACK your website enter the text below into the **blog to delete**
 field! YOLO SEND IT!
 
 ```txt
