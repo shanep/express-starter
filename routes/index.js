@@ -18,9 +18,7 @@ router.get('/', function (req, res, next) {
             console.log("Table exists!");
             db.all(` select blog_id, blog_txt from blog`, (err, rows) => {
               console.log("returning " + rows.length + " records");
-              db.all(` select blog_id, blog_txt from blog`, (err, rows) => {
-                res.render('index', { title: 'Express', data: rows });
-              });
+              res.render('index', { title: 'Express', data: rows });
             });
           } else {
             console.log("Creating table and inserting some sample data");
